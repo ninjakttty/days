@@ -1,0 +1,16 @@
+{
+  "name": "days",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/.bin/simple-server ./src"
+  },
+  "keywords": [],
+  "author": "Yuri Parsons <yuri@ninjakitty.net> (http://ninjakitty.net/)",
+  "license": "ISC",
+  "dependencies": {
+    "simple-server": "^1.0.1"
+  }
+}

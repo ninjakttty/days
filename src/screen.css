@@ -1,0 +1,20 @@
+#container{
+  width: 500px;  
+  height: 500px;
+  background-color: #999;
+}
+.hidden{
+    display:none;
+}
+
+section{
+    height: 3em;
+    width: 30%;
+    display: inline-block;
+}
+.selected{
+    background-color: grey;
+}
+.hidden{
+    display: none;
+}

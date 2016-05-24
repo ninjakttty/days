@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Test</title>
+        <link rel="stylesheet" type="text/css" href="screen.css">
+    </head>
+    <body>
+        <header>
+            <section class="title" data-selector="days-of-the-week" >Days of Week</section>
+            <section class="title selected" data-selector="date-picker">Date Picker</section>
+            <section class="title" data-selector="user-input">User Input</section>
+        </header>
+        <form>
+            <div id="days-of-the-week" class='tab hidden'>
+                <input type="checkbox" value="MON"> Monday
+                <input type="checkbox" value="TUE"> Tuesday
+                <input type="checkbox" value="WED"> Wednesday
+                <input type="checkbox" value="THU"> Thursday
+                <input type="checkbox" value="FRI"> Friday
+                <input type="checkbox" value="SAT"> Saturday
+                <input type="checkbox" value="SUN"> Sunday
+            </div>
+            
+            <div id="date-picker" class='tab'>
+                <input type="hidden" value="" id="date">
+                <div id='datecontainer'></div>
+            </div>
+            
+            <div id="user-input" class='tab hidden'> 
+                <!-- parse it to fields above -->
+                <input type="text" value="" id="input">
+            </div>
+ 
+            <input type="submit" value="Run" id="submit" class="results">
+ 
+            <!-- final format: MON,TUE,FRI or 05/12/2011 -->
+            <input type="text" value="" id="result" placeholder="Result">
+        </form>
+        <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
